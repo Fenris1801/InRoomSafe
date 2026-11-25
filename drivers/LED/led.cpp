@@ -1,6 +1,6 @@
 #include "led.h"
 
-void LedInit(unsigned char led)
+void ledInit(unsigned char led)
 {
     DDRD |= led;
     PORTD = 0;

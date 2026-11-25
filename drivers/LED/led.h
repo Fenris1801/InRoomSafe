@@ -3,7 +3,7 @@
 
 #include <avr/io.h>
 
-void LedInit(unsigned char led);
+void ledInit(unsigned char led);
 void switchLedOnOff(unsigned char led, unsigned char onOff);
 void toggleLed(unsigned char led);
 
