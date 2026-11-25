@@ -1,3 +1,4 @@
+#include <avr/io.h>
 #include "led.h"
 
 void ledInit(unsigned char led)

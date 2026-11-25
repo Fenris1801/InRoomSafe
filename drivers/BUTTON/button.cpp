@@ -1,3 +1,4 @@
+#include <avr/io.h>
 #include "button.h"
 
 void btnInit(unsigned char btn)
